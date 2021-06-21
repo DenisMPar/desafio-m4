@@ -1,0 +1,125 @@
+.header__cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  padding: 30px 30px;
+  font-family: "Poppins";
+  font-size: 24px;
+}
+.logo__link {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 120px;
+  height: 35px;
+}
+@media (min-width: 769px) {
+  .logo {
+    width: 180px;
+    height: 53px;
+    place-self: center;
+  }
+}
+.header__burger-button {
+  width: 36px;
+  height: 32px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .header__burger-button {
+    display: none;
+  }
+}
+.header__burger-button-span {
+  width: 100%;
+  height: 6px;
+  border-radius: 4px;
+  display: block;
+  background: #fff;
+  margin-bottom: 4px;
+}
+@media (min-width: 768px) {
+  .header__burger-button-span {
+    display: none;
+  }
+}
+.header__nav {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header__nav {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+}
+.header__nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: "poppins";
+  font-size: 24px;
+  font-weight: 600;
+  /* background-color: rgba(255, 178, 89, 0.932); */
+  /* border: solid 4px rgb(223, 223, 231); */
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  text-shadow: 4px 4px 4px black;
+}
+.menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  border: solid 3px;
+  background-color: #131e25;
+  padding: 30px;
+}
+.menu__cont-button {
+  text-align: right;
+  margin-bottom: 100px;
+}
+.menu__close-button {
+  width: 100%;
+  text-align: center;
+  width: 60px;
+  height: auto;
+  justify-self: end;
+  text-decoration: none;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.menu__close-button::after {
+  font-size: 60px;
+  display: inline-block;
+  color: #fff;
+  margin: 0;
+  content: "\00d7";
+}
+.menu__nav {
+  display: flex;
+  flex-direction: column;
+  place-self: center;
+}
+.menu__nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 51px;
+}

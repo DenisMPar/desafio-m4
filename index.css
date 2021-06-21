@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: url("./images/fondo\ escritorio.png");
+}
+
+/* main */
+
+.main {
+  height: calc(100vh - 95px);
+  margin: 0;
+  padding-top: 110px;
+}
+@media (min-width: 768px) {
+  .main {
+    height: calc(100vh - 113px);
+    padding-top: 100px;
+  }
+}
+.main__title {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  /* color: rgb(255, 230, 0); */
+  margin-bottom: 15px;
+  text-shadow: 4px 4px 4px black;
+}
+@media (min-width: 768px) {
+  .main__title {
+    font-size: 68px;
+  }
+}
+.main__sub-title {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  text-shadow: 4px 4px 4px black;
+}
+@media (min-width: 768px) {
+  .main__sub-title {
+    font-size: 52px;
+  }
+}
+/* About me */
+.about-me {
+  height: 538px;
+  background-color: #131e25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 30px;
+  color: white;
+}
+.abou .about-me__container {
+  width: 100%;
+  max-width: 610px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 769px) {
+  .about-me__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+  }
+}
+.about-me__img {
+  display: none;
+}
+@media (min-width: 769px) {
+  .about-me__img {
+    display: initial;
+  }
+}
+.about-me__text-container {
+  max-width: 610px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-me__title {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 46px;
+  text-align: center;
+  color: #00c785;
+}
+@media (min-width: 769px) {
+  .about-me__title {
+    text-align: left;
+    margin: 0;
+  }
+}
+.about-me__p {
+  font-family: "Poppins";
+  font-size: 16px;
+}
+/* Servicios */
+.services {
+  background-color: #d3eef8;
+  padding: 68px 0;
+}
+
+.services__title {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: rgb(26, 26, 26);
+  margin: 0;
+}
+.services__container-cards {
+  height: auto;
+  padding: 0 57px;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 30px; */
+}
+.service-card {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-card__container-img {
+  height: 129px;
+  width: 100%;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-card__img {
+  width: 140px;
+  height: 129px;
+  align-self: center;
+}
+.service-card__container-text {
+  max-width: 262px;
+  place-self: center;
+  margin-top: 17px;
+}
+.service-card__title {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(19, 19, 19);
+  margin: 0;
+}
+.service-card__p {
+  font-family: "Poppins";
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+/* contact */
+
+.contact {
+  background-color: #131e25;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* footer */
+.footer {
+  background-color: #212a30;
+  width: auto;
+  height: 493px;
+  font-family: "poppins";
+}
+@media (min-width: 769px) {
+  .footer {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

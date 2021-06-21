@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.cont-form {
+  width: 100%;
+  margin: 0 30px;
+}
+@media (min-width: 960px) {
+  .cont-form {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+  }
+}
+.contact-form__p {
+  font-family: "poppins";
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  margin: 0;
+  margin-bottom: 27px;
+}
+@media (min-width: 960px) {
+  .contact-form__p {
+    text-align: right;
+    margin-right: 77px;
+  }
+}
+.contact-form {
+  font-family: "poppins";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form__label-name,
+.contact-form__label-email,
+.contact-form__label-message {
+  width: 100%;
+  max-width: 356px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  margin-bottom: 27px;
+}
+@media (min-width: 960px) {
+  .contact-form__label-name,
+  .contact-form__label-email,
+  .contact-form__label-message {
+    align-self: start;
+  }
+}
+.contact-form__input-name,
+.contact-form__input-email {
+  height: 45px;
+  border: 3px solid #2c2c2c;
+  border-radius: 4px;
+}
+.contact-form__label-message {
+  margin-bottom: 60px;
+}
+.contact-form__area-message {
+  height: 113px;
+  border: 3px solid #2c2c2c;
+  border-radius: 4px;
+}
+.contact-form__button {
+  width: 100%;
+  max-width: 356px;
+  height: 45px;
+  padding: 11px 28px;
+  background-color: #059276;
+  text-align: center;
+  color: #dbdbdb;
+  border-radius: 4px;
+  border: none;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 16px;
+}
+@media (min-width: 960px) {
+  .contact-form__button {
+    align-self: start;
+  }
+}
