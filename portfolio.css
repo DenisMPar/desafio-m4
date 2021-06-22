@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+@media (min-width: 769px) {
+  body {
+    background-image: url("./images/1x/Mesa\ de\ trabajo\ 1.png");
+  }
+}
+
+.header {
+  background-color: #1c2d38;
+}
+@media (min-width: 769px) {
+  .header {
+    background: none;
+  }
+}
+
+.main {
+  background-color: #131e25;
+  padding-top: 110px;
+}
+@media (min-width: 769px) {
+  .main {
+    padding-top: 180px;
+    padding-left: 50px;
+    height: calc(90vh - 113px);
+    background: none;
+  }
+}
+.main__container-title {
+  width: auto;
+  text-align: left;
+}
+.main__title {
+  width: auto;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: white;
+  margin: 0;
+  text-shadow: 4px 4px 4px black;
+}
+@media (min-width: 769px) {
+  .main__title {
+    text-align: left;
+  }
+}
+
+.portfolio {
+  background-color: #131e25;
+  padding: 68px 0;
+}
+
+.portfolio__container-cards {
+  height: auto;
+  padding: 0 57px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media (min-width: 769px) {
+  .portfolio__container-cards {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 30px;
+  }
+}
+.portfolio-card {
+  margin-top: 56px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio-card__container-img {
+  height: 129px;
+  width: 100%;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio-card__img {
+  width: 140px;
+  height: 129px;
+  align-self: center;
+}
+.portfolio-card__container-text {
+  max-width: 262px;
+  place-self: center;
+  margin-top: 17px;
+}
+.portfolio-card__title {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #00c785;
+  margin: 0;
+}
+.portfolio-card__p {
+  font-family: "Poppins";
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+.portfolio__container-link {
+  text-align: center;
+}
+.portfolio__link {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 24px;
+  color: #00a2ff;
+}
+/* footer */
+.footer {
+  background-color: #212a30;
+  width: auto;
+  height: 493px;
+  font-family: "poppins";
+}
+@media (min-width: 769px) {
+  .footer {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

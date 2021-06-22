@@ -133,11 +133,12 @@ function addFooter() {
   console.log();
   footerComp(footerEl);
 }
-
-function main() {
+function addHeader() {
   const headerEl = document.querySelector(".header");
   componentHeader(headerEl);
+}
 
+function main() {
   getHomeContent().then((r) => {
     for (const item of r) {
       addHomeContent(item);
@@ -155,6 +156,7 @@ function main() {
       addServiceCards(item);
     }
   });
+  addHeader();
   addForm();
   addFooter();
 }

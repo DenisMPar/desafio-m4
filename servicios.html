@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./servicios.css" />
+    <link rel="stylesheet" href="./components/header/header.css" />
+    <script defer src="./components/header/header.js"></script>
+    <link rel="stylesheet" href="./components/footer/footer.css" />
+    <script defer src="./components/footer/footer.js"></script>
+    <script defer src="./servicios.js"></script>
+  </head>
+  <body style="background-color: black">
+    <header class="header"></header>
+    <section class="main">
+      <div class="main__container-title">
+        <h2 class="main__title">Servicios</h2>
+      </div>
+    </section>
+    <section class="services">
+      <div class="services__container-cards"></div>
+    </section>
+    <footer class="footer"></footer>
+    <template id="template__service-card">
+      <div class="service-card">
+        <div class="service-card__container-img">
+          <img src="" alt="" class="service-card__img" />
+        </div>
+        <div class="service-card__container-text">
+          <h3 class="service-card__title"></h3>
+          <p class="service-card__p"></p>
+          <a href="" class="service__link"></a>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>

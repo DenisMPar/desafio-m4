@@ -127,10 +127,18 @@ body {
   padding: 0 57px;
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 30px; */
+}
+@media (min-width: 769px) {
+  .services__container-cards {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 30px;
+  }
 }
 .service-card {
   margin-top: 56px;
+  margin-right: 10px;
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;

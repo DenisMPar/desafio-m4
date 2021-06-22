@@ -10,9 +10,39 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <script src="./components/header/header.js"></script>
+    <link rel="stylesheet" href="./portfolio.css" />
     <link rel="stylesheet" href="./components/header/header.css" />
+    <script defer src="./components/header/header.js"></script>
+    <link rel="stylesheet" href="./components/footer/footer.css" />
+    <script defer src="./components/footer/footer.js"></script>
     <script defer src="./porftolio.js"></script>
   </head>
-  <body style="background-color: black"></body>
+  <body>
+    <body style="background-color: black">
+      <header class="header"></header>
+      <section class="main">
+        <div class="main__container-title">
+          <h2 class="main__title">Portfolio</h2>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="portfolio__container-cards"></div>
+      </section>
+      <footer class="footer"></footer>
+      <template id="template__portfolio-card">
+        <div class="portfolio-card">
+          <div class="portfolio-card__container-img">
+            <img src="" alt="" class="portfolio-card__img" />
+          </div>
+          <div class="portfolio-card__container-text">
+            <h3 class="portfolio-card__title"></h3>
+            <p class="portfolio-card__p"></p>
+            <div class="portfolio__container-link">
+              <a href="" class="portfolio__link"></a>
+            </div>
+          </div>
+        </div>
+      </template>
+    </body>
+  </body>
 </html>
