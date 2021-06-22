@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+@media (min-width: 769px) {
+  body {
+    background-image: url("./images/fondo-contacto-web.png");
+  }
+}
+
+.header {
+  background-color: #1c2d38;
+}
+@media (min-width: 769px) {
+  .header {
+    background: none;
+  }
+}
+
+.main {
+  height: 100vh;
+  background-color: #131e25;
+  padding-top: 90px;
+}
+@media (min-width: 769px) {
+  .main {
+    height: 110vh;
+    padding-top: 200px;
+    padding-left: 50px;
+    background: none;
+  }
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background-color: #212a30;
+  width: auto;
+  height: 493px;
+  font-family: "poppins";
+}
+@media (min-width: 769px) {
+  .footer {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

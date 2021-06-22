@@ -6,7 +6,7 @@ function footerComp(el) {
     <img src="./images/logo.png" alt="logo" class="footer__logo" />
   </div>
   <div class="footer__container-links">
-    <a href="" class="footer__socialmedia-link">
+    <a href="https://www.instagram.com" class="footer__socialmedia-link">
       Instagram
       <img
         src="./images/instagram-logo.png"
@@ -15,7 +15,8 @@ function footerComp(el) {
       />
     </a>
 
-    <a href="" class="footer__socialmedia-link">
+    <a href="https://ar.linkedin.com
+    " class="footer__socialmedia-link">
       Linkedin
       <img
         src="./images/in-logo.png"
@@ -24,7 +25,8 @@ function footerComp(el) {
       />
     </a>
 
-    <a href="" class="footer__socialmedia-link">
+    <a href="https://github.com
+    " class="footer__socialmedia-link">
       Git-Hub
       <img
         src="./images/git-logo.png"
@@ -33,5 +35,6 @@ function footerComp(el) {
       />
     </a>
   </div>`;
+
   el.appendChild(footerComp);
 }

@@ -4,7 +4,7 @@
   width: 100%;
   margin: 0 30px;
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
   .cont-form {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -19,7 +19,7 @@
   margin: 0;
   margin-bottom: 27px;
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
   .contact-form__p {
     text-align: right;
     margin-right: 77px;
@@ -43,7 +43,7 @@
   font-size: 13px;
   margin-bottom: 27px;
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
   .contact-form__label-name,
   .contact-form__label-email,
   .contact-form__label-message {
@@ -78,7 +78,7 @@
   font-weight: bold;
   font-size: 16px;
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
   .contact-form__button {
     align-self: start;
   }
