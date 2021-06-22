@@ -69,15 +69,15 @@ body {
   }
 }
 .service-card {
+  min-height: 150px;
   margin-top: 56px;
   margin-right: 10px;
   margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
 }
 .service-card__container-img {
-  height: 129px;
+  height: auto;
   width: 100%;
   padding: 4px;
   display: flex;
@@ -90,9 +90,13 @@ body {
   align-self: center;
 }
 .service-card__container-text {
+  height: 100%;
   max-width: 262px;
   place-self: center;
   margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .service-card__title {
   font-family: "Poppins";

@@ -72,12 +72,12 @@ body {
   }
 }
 .portfolio-card {
+  min-height: 373px;
   margin-top: 56px;
   margin-right: 10px;
   margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
 }
 .portfolio-card__container-img {
   height: 129px;
@@ -93,9 +93,13 @@ body {
   align-self: center;
 }
 .portfolio-card__container-text {
+  height: 100%;
   max-width: 262px;
   place-self: center;
   margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .portfolio-card__title {
   font-family: "Poppins";
