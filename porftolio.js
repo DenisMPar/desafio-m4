@@ -19,7 +19,7 @@ function addPortfolioCards(params) {
 
   const portfolioLink = clone.querySelector(".portfolio__link");
   portfolioLink.href = params.link;
-  portfolioLink.textContent = params.link;
+  portfolioLink.textContent = "Ver aquí";
 
   containerPortfolioCards.appendChild(clone);
 }
@@ -31,7 +31,7 @@ function getAssetImageUrl(imageId, data) {
   return itemImageArray.fields.file.url;
 }
 
-// trae el contenido del modelo ServiceCard desde la api y crea un array de objetos con cada instancia del modelo
+// trae el contenido del modelo PortfolioCard desde la api y crea un array de objetos con cada instancia del modelo
 function getPortfolioContent() {
   return fetch(
     "https://cdn.contentful.com/spaces/lj3cfwngwqd5/environments/master/entries?access_token=U4E_8brZv1ELdNO1SqdfpFESzL_KywzLQwAb7fusz3o&content_type=portfolioCards"

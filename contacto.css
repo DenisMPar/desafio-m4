@@ -26,7 +26,7 @@ body {
 }
 @media (min-width: 769px) {
   .main {
-    height: 110vh;
+    height: 130vh;
     padding-top: 200px;
     padding-left: 50px;
     background: none;
@@ -40,7 +40,7 @@ body {
 .footer {
   background-color: #212a30;
   width: auto;
-  height: 493px;
+  height: 400px;
   font-family: "poppins";
 }
 @media (min-width: 769px) {

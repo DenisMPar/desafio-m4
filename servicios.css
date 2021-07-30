@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 body {
@@ -113,7 +113,7 @@ body {
   color: white;
 }
 /* footer */
-.footer {
+/* .footer {
   background-color: #212a30;
   width: auto;
   height: 493px;
@@ -126,4 +126,4 @@ body {
     align-items: center;
     justify-content: center;
   }
-}
+} */

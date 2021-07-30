@@ -47,7 +47,6 @@ function getServicesContent() {
 }
 function addFooter() {
   const footerEl = document.querySelector(".footer");
-  console.log();
   footerComp(footerEl);
 }
 function addHeader() {

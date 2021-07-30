@@ -5,8 +5,8 @@ function componentHeader(container) {
     <img src="./images/logo.png" alt="" class="logo" />
     </a>
     <nav class="header__nav">
+    <a href="./index.html" class="header__nav-link">Home</a>
       <a href="./portfolio.html" class="header__nav-link">Portfolio</a>
-      <a href="./servicios.html" class="header__nav-link">Servicios</a>
       <a href="./contacto.html" class="header__nav-link">Contacto</a>
     </nav>
     <button class="header__burger-button">

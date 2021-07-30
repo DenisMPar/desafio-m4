@@ -25,9 +25,10 @@
 
 .footer__container-links {
   width: 100%;
-  max-width: 180px;
   height: 138px;
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
   gap: 25px;
 }
 .footer__socialmedia-link {
