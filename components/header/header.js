@@ -19,8 +19,8 @@ function componentHeader(container) {
         <button class="menu__close-button"></button>
       </div>
       <nav class="menu__nav">
+      <a href="./index.html" class="menu__nav-link">Home</a>
         <a href="./portfolio.html" class="menu__nav-link">Portfolio</a>
-        <a href="./servicios.html" class="menu__nav-link">Servicios</a>
         <a href="./contacto.html" class="menu__nav-link">Contacto</a>
       </nav>
     </div>`;
